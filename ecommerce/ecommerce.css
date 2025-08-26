@@ -1,0 +1,13 @@
+.main-top {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    position: relative;
+    background:
+    linear-gradient(to right, #029930 50%, rgba(2, 153, 48, 0)),
+    url('../template/bg-industry.png');
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    color: white;
+}
