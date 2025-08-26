@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Ecocaixas - E-commerce</title>
+    <link rel="stylesheet" href="../segments.css">
+    <link rel="stylesheet" href="/segments-mobile.css">
+    <link rel="stylesheet" href="ecommerce.css">
+    <link rel="stylesheet" href="../slides.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="menu-header">
+            <div class="menu-header-content">
+                <div class="nav-top-container">
+                    <div class="logo-img">
+                        <img class="logo" src="../template/logo.png" alt="">
+                    </div>
+                    <div class="links">
+                        <a href="/index.html">Início</a>
+                        <a href="#" class="about">Sobre nós</a>
+                        <a href="#" class="segmentos">Segmentos</a>
+                        <a href="https://wa.me/SEUNUMERO" target="_blank"
+                            style="text-decoration: none; color: #25D366;">
+                            <button
+                                style="background-color: #fff; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer;">
+                                <i class="fab fa-whatsapp"></i> Fale conosco
+                            </button>
+                        </a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"
+                                style="background-color: #fff; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; color: #000;"></i></a>
+                    </div>
+                </div>
+
+                <div class="mobile-btn">
+                    <div class="bar1"></div>
+                    <div class="bar1"></div>
+                    <div class="bar1"></div>
+                </div>
+
+                <div class="menu-mobile">
+                    <div class="links-mobile">
+                        <a href="/index.html">Início</a>
+                        <a href="#" class="about">Sobre nós</a>
+                        <a href="#" class="segmentos">Segmentos</a>
+                        <a href="https://wa.me/SEUNUMERO" target="_blank"
+                            style="text-decoration: none; color: #25D366;">
+                            <button
+                                style="background-color: #fff; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer;">
+                                <i class="fab fa-whatsapp"></i> Fale conosco
+                            </button>
+                        </a>
+                        <a href="#" class="instagram"><i class="fab fa-instagram"
+                                style="background-color: #fff; border: none; padding: 10px 20px; border-radius: 8px; cursor: pointer; color: #000;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-top ">
+            <div class="main-top-content">
+                <div class="icon-container">
+                    <div class="main-top-icon">
+                        <img src="/ecommerce/e-commerce-icon.svg" alt="">
+                    </div>
+                    <p>E-commerce</p>
+                </div>
+                <div class="main-top-title">
+                    <p>Todos os portes e todos os segmentos</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="main-container">
+
+                <div class="opts-container">
+                    <div class="form-group">
+                        <label for="modelo">Modelo de caixa</label>
+                        <select id="modelo">
+                            <option value="oitavada">Oitavada</option>
+                            <option value="smart">Smart</option>
+                            <option value="retangular">Retangular</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tamanho">Tamanho</label>
+                        <select id="tamanho"></select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quantidade">Quantidade</label>
+                        <input type="number" id="quantidade" min="1" value="10"
+                            style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Material</label>
+                        <div class="material-options">
+                            <div class="circle parda" data-material="pardo" title="Pardo"></div>
+                            <div class="circle branca" data-material="branco" title="Branca"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider">
+                    <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slides" id="slideContainer">
+
+                        <!-- pizza - tamanhos -->
+                        <div class="slide" data-model="oitavada" data-tamanho="20">
+                            <img src="otv-20.png" alt="otv-20">
+                        </div>
+                        <div class="slide" data-model="oitavada" data-tamanho="25">
+                            <img src="otv-25.png" alt="otv-25">
+                        </div>
+                        <div class="slide" data-model="oitavada" data-tamanho="30">
+                            <img src="otv-30.png" alt="otv-30">
+                        </div>
+                        <div class="slide" data-model="oitavada" data-tamanho="35">
+                            <img src="otv-35.png" alt="otv-35">
+                        </div>
+                        <div class="slide" data-model="oitavada" data-tamanho="40">
+                            <img src="otv-40.png" alt="otv-40">
+                        </div>
+                        <div class="slide" data-model="oitavada" data-tamanho="45">
+                            <img src="otv-45.png" alt="otv-45">
+                        </div>
+                        
+                        <!-- smart - tamanhos -->
+                        <div class="slide" data-model="smart" data-tamanho="30">
+                            <img src="smart-30.png" alt="smart-30">
+                        </div>
+                        <div class="slide" data-model="smart" data-tamanho="35">
+                            <img src="smart-35.png" alt="smart-35">
+                        </div>
+                        <div class="slide" data-model="smart" data-tamanho="40">
+                            <img src="smart-40.png" alt="smart-40">
+                        </div>
+
+                        <!-- retangular - tamanhos -->
+                        <div class="slide" data-model="retangular" data-tamanho="PP1">
+                            <img src="retangular-pp1.png" alt="retangular-pp1">
+                        </div>
+                        <div class="slide" data-model="retangular" data-tamanho="PP2">
+                            <img src="retangular-pp2.png" alt="retangular-pp2">
+                        </div>
+                        <div class="slide" data-model="retangular" data-tamanho="Mini">
+                            <img src="retangular-mini.png" alt="retangular-mini">
+                        </div>
+                        <div class="slide" data-model="retangular" data-tamanho="P">
+                            <img src="retangular-p.png" alt="retangular-p">
+                        </div>
+                        <div class="slide" data-model="retangular" data-tamanho="M">
+                            <img src="retangular-m.png" alt="retangular-m">
+                        </div>
+                        <div class="slide" data-model="retangular" data-tamanho="G">
+                            <img src="retangular-g.png" alt="retangular-g">
+                        </div>
+
+                    </div>
+                    <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+
+                <!-- Botão Finalizar Compra -->
+                <button id="finalizarCompra"
+                    style="margin-top: 20px; padding: 12px 20px; background-color: #25d366; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; display: none;">
+                    <i class="fab fa-whatsapp"></i> Finalizar Compra
+                </button>
+
+                <!-- Modal -->
+                <div id="modalCompra"
+                    style="display:none; position: fixed; top:0; left:0; width: 100%; height:100%; background: rgba(0,0,0,0.5); justify-content: center; align-items: center; z-index: 1000;">
+                    <div
+                        style="background: white; border-radius: 10px; width: 90%; max-width: 500px; padding: 20px; position: relative; max-height: 90vh; overflow-y: auto;">
+                        <button id="fecharModal"
+                            style="position: absolute; top: 10px; right: 15px; background: transparent; border: none; font-size: 20px; cursor: pointer;">&times;</button>
+                        <h2>Finalize seu pedido</h2>
+
+                        <form id="formCompra">
+                            <div style="margin-bottom: 15px;">
+                                <label for="empresa">Nome da empresa:</label><br>
+                                <input type="text" id="empresa" required
+                                    style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+                            </div>
+
+                            <div style="margin-bottom: 15px;">
+                                <label for="telefone">Número para contato:</label><br>
+                                <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX"
+                                    style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+                            </div>
+
+                            <div style="margin-bottom: 15px;">
+                                <label for="instagram">Instagram:</label><br>
+                                <input type="text" id="instagram" placeholder="@usuario"
+                                    style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+                            </div>
+
+                            <div style="margin-bottom: 15px;">
+                                <label for="site">Site ou aplicativo:</label><br>
+                                <input type="url" id="site" placeholder="https://example.com"
+                                    style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+                            </div>
+
+                            <div style="margin-bottom: 15px;">
+                                <label for="segmento">Segmento:</label><br>
+                                <select id="segmento" required
+                                    style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;">
+                                    <option value="">Selecione</option>
+                                    <option value="Indústria">Indústria</option>
+                                    <option value="Comércio">Comércio</option>
+                                    <option value="Transportadora">Transportadora</option>
+                                    <option value="Varejo">Varejo</option>
+                                    <option value="E-commerce">E-commerce</option>
+                                </select>
+                            </div>
+
+                            <div style="margin-bottom: 15px;">
+                                <label for="descricao">Descrição do pedido:</label><br>
+                                <textarea id="descricao" rows="3" placeholder="Descreva seu pedido..."
+                                    style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc;"></textarea>
+                            </div>
+
+                            <hr>
+
+                            <div style="background: #f9f9f9; padding: 10px; border-radius: 6px; margin-bottom: 15px;">
+                                <h3>Informações selecionadas</h3>
+                                <div id="infoCarrinhoResumo"
+                                    style="margin-top: 15px; border-top: 1px solid #ccc; padding-top: 10px;">
+                                    <!-- Conteúdo gerado via JS -->
+                                </div>
+                            </div>
+
+
+
+                            <button type="submit"
+                                style="background-color: #25d366; color: white; border: none; padding: 12px 20px; border-radius: 6px; font-size: 16px; cursor: pointer;">
+                                Enviar Pedido via WhatsApp
+                            </button>
+
+                            <button id="copiarMensagem"
+                                style="margin-top: 10px; padding: 10px 18px; background-color: #007bff; color: white; border: none; border-radius: 6px; cursor: pointer;"><i
+                                    class="fas fa-copy"></i> Copiar mensagem</button>
+
+                        </form>
+                    </div>
+                </div>
+
+                <div class="add-cart">
+                    <button id="adicionarCarrinho" type="button">Adicionar ao Carrinho</button>
+                </div>
+
+                <div class="cart-container">
+                    <button id="abrirCarrinho" type="button" style="position: relative; padding-right: 30px;"><i
+                            class="fas fa-shopping-cart"></i> <span id="contadorCarrinho"
+                            style="position: absolute; top: 2px; right: 0px; background: #fff; color: #ff3a3a; font-weight: bold; border-radius: 20px; width: 30px; height: 30px; padding: 5px; font-size: 12px; display: none; border: 3px solid #ff3a3a;">0</span></button>
+                </div>
+
+
+                <!-- Modal do Carrinho -->
+                <div id="modalCarrinho">
+                    <div id="modalConteudoCarrinho"
+                        style="background:white; padding:30px; max-height:80vh; overflow-y:auto; width:90vw; max-width:600px; border-radius:8px; position:relative;">
+
+                        <button id="fecharModalCarrinho" style="position:absolute; top:10px; right:10px;">X</button>
+
+                        <h2>Carrinho de Compras</h2>
+
+                        <div id="listaCarrinho"></div>
+
+                        <button id="finalizarCompraCarrinho"
+                            style="margin-top: 10px; padding: 10px 18px; background-color: #28a745; color: white; border: none; border-radius: 6px; cursor: pointer;">
+                            <i class="fas fa-check"></i> Finalizar Compra
+                        </button>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="./template/logo-branca.png" alt="">
+                </div>
+                <div class="footer-info-container">
+                    <div class="footer-info">
+                        <p class="footer-info-title">Institucional</p>
+                        <a href="#">Sobre nós</a>
+                        <a href="#">Política de privacidade</a>
+                        <a href="#">Política de qualidade</a>
+                    </div>
+                    <div class="footer-info">
+                        <p class="footer-info-title">Informações</p>
+                        <a href="#">Setores atentidos</a>
+                        <a href="#">Produtos</a>
+                        <a href="#">Contato</a>
+                    </div>
+                    <div class="footer-info">
+                        <p>Atendimento: Seg. à Sex. 08h00 às 17h00</p>
+                        <p>Whatsapp: (71) 9 0000-0000</p>
+                        <div class="sociais-container">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-info-bottom">
+                    <p>Ecocaixas © 2025. Todos os direitos reservados</p>
+                    <p>Ecocaixas comercio e personalização de caixas de papelão Ltda</p>
+                    <p>CNPJ: 00.000.000/0000-00</p>
+                    <p>Rua Alameda - Jardim Limoeiro, Camaçari-BA, CEP 42801-141</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="../mobile.js"></script>
+    <script src="../script.js"></script>
+</body>
+
+</html>
